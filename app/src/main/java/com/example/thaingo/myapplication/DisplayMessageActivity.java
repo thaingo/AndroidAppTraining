@@ -24,6 +24,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
   }
 
   public void onClickClose(View view) {
+    Intent intent = new Intent();
+    intent.putExtra(MainActivity.REQUEST_RESULT, 42);
+    setResult(RESULT_OK, intent);
     finish();
   }
 }
