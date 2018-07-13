@@ -3,6 +3,7 @@ package com.example.thaingo.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 
@@ -20,5 +21,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
     // Capture the layout's TextView and set the string as its text
     TextView textView = findViewById(R.id.textView);
     textView.setText(message);
+  }
+
+  public void onClickClose(View view) {
+    finish();
   }
 }

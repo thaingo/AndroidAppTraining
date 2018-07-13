@@ -36,7 +36,7 @@
   <Button
     android:id="@+id/buttonVisit"
     android:layout_width="wrap_content"
-    android:layout_height="42dp"
+    android:layout_height="0dp"
     android:layout_marginBottom="8dp"
     android:onClick="launchBuiltInAppIntent"
     android:text="@string/button_visit"
