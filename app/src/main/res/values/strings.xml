@@ -1,8 +1,5 @@
 <resources>
   <string name="app_name">My Application</string>
-  <string name="edit_message">Enter a message</string>
-  <string name="button_send">Send</string>
-  <string name="button_visit">Visit a Website</string>
-  <string name="button_close">Close</string>
-  <string name="textview_displayActivity">TextView</string>
+  <string name="button_left">Left Button</string>
+  <string name="button_right">Right Button</string>
 </resources>

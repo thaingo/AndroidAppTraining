@@ -7,13 +7,13 @@
   tools:context="com.example.thaingo.myapplication.MainActivity">
 
   <Button
-    android:id="@+id/buttonLeft"
+    android:id="@+id/buttonRight"
     android:layout_width="wrap_content"
     android:layout_height="64dp"
     android:layout_marginBottom="8dp"
     android:layout_marginTop="8dp"
-    android:onClick="onClickLeft"
-    android:text="@string/button_left"
+    android:onClick="onClickRight"
+    android:text="@string/button_right"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintHorizontal_bias="0.502"
     app:layout_constraintLeft_toLeftOf="parent"
