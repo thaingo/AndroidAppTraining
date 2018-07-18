@@ -1,5 +1,3 @@
 <resources>
   <string name="app_name">My Application</string>
-  <string name="button_left">Left Button</string>
-  <string name="button_right">Right Button</string>
 </resources>
