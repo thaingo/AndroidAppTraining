@@ -26,7 +26,7 @@
     android:layout_height="49dp"
     android:layout_marginEnd="16dp"
     android:layout_marginStart="16dp"
-    android:onClick="sendMessageIntent"
+    android:onClick="onClickCounter"
     android:text="@string/button_send"
     app:layout_constraintBaseline_toBaselineOf="@+id/editText"
     app:layout_constraintEnd_toEndOf="parent"
@@ -43,4 +43,15 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent" />
+
+  <TextView
+    android:id="@+id/textView"
+    android:layout_width="328dp"
+    android:layout_height="38dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="88dp"
+    android:text="TextView"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
